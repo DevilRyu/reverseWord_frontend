@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente - <Topbar /> Debe de mostrarse correctamente 1`] = `
+<nav
+  className="navbar navbar-red bg-danger justify-content-center"
+>
+  <form
+    className="form-inline w-100  justify-content-center"
+    onSubmit={[Function]}
+  >
+    <input
+      aria-label="Search"
+      className="form-control mr-sm-2 w-50"
+      name="text"
+      onChange={[Function]}
+      placeholder="Insert Text"
+      type="search"
+      value=""
+    />
+    <button
+      className="btn my-2 my-sm-0 btn-outline-light bg-primary "
+      type="submit"
+    >
+      Send
+    </button>
+  </form>
+</nav>
+`;
